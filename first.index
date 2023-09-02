@@ -1,0 +1,11 @@
+<!DOCTYPE html>              // it is declaration of html5
+<html lang="en">  
+<head>                       // head contain the metadata of webpage  ( data related data  such as title for webpage, meata tags it contain descrption of an web page. stylesheet links etc...)
+    <title>Document</title>  // it specifies title for webpage.
+</head>
+<body>                        // body contain the visible content of web page 
+    
+    <p>This is first page</p>    // this is paragraph tag
+    
+</body>
+</html>
