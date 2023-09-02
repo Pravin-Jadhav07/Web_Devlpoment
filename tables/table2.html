@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>col1</th>
+                <th>col2</th>
+                <th>col3</th>
+                <th>col4</th>
+                <th>col5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>r1c1</td>
+                <td>r1c2</td>
+                <td>r1c3</td>
+                <td>r1c4</td>
+                <td rowspan="4">r1c5</td>
+            </tr>
+            <tr>
+                <td>r2c1</td>
+                <td>r2c2</td>
+                <td>r2c3</td>
+                <td>r2c4</td>
+            </tr>
+            <tr>
+                <td>r3c1</td>
+                <td>r3c2</td>
+                <td>r3c3</td>
+                <td>r3c4</td>
+            </tr>
+            <tr>
+                <td>r4c1</td>
+                <td>r4c2</td>
+                <td>r4c3</td>
+                <td>r4c4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">r5c1</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
